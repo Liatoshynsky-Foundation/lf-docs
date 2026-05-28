@@ -2,7 +2,7 @@
 
 All color logic is extracted into the `colors.ts` file. **Hardcoding HEX values directly in UI components is strictly prohibited.**
 
-## 1. Base Palette (`mainHexPallete`)
+## 1. Base Palette (`mainHexPalette`)
 
 This is the root dictionary containing raw HEX values. It should be used for base styling when a specific semantic token is not available.
 
@@ -11,7 +11,7 @@ This is the root dictionary containing raw HEX values. It should be used for bas
 
 ## 2. MUI Palette Integration
 
-The `mainHexPallete` is integrated into the core MUI `theme.palette`. We also define semantic palette slots for standard components:
+The `mainHexPalette` is integrated into the core MUI `theme.palette`. We also define semantic palette slots for standard components:
 
 - `primary`: Black background
 - `secondary`: White/transparent background
@@ -92,7 +92,7 @@ import { styles } from './Component.styles'
 <Box sx={{ backgroundColor: '#B6D0F7', color: '#190d03' }} />
 ```
 
-In some cases, you might need to use CSS utility functions (like MUI's `alpha()`) to modify standard palette colors. In such cases, string paths won't work inside the function. You must import the mainHexPallete object directly:
+In some cases, you might need to use CSS utility functions (like MUI's `alpha()`) to modify standard palette colors. In such cases, string paths won't work inside the function. You must import the mainHexPalette object directly:
 
 ```ts
 // Сomponent.styles.ts
