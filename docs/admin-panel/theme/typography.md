@@ -83,8 +83,10 @@ subtitle2: {
 
 Pass `subtitle2` into variant prop of a Typography component (no additional import needed) and pass the styles block from the styles file:
 
+> **_Note_**: The following files are provided as an illustrative example of the styling approach and do not enforce a strict naming convention for your components.
+
 ```tsx
-// Component.tsx
+// ExampleComponent.tsx
 import { Typography } from "@mui/material";
 import { styles } from "./Component.styles.ts";
 
@@ -96,13 +98,22 @@ import { styles } from "./Component.styles.ts";
 The desired properties must be rewritten in the component's styles file:
 
 ```ts
-// Component.styles.ts
+// ExampleComponent.styles.ts
 export const styles = {
   paragraph: {
     fontWeight: 700, // overwritten
     lineHeight: 1.75, // overwritten
   },
 };
+```
+
+> **_Scalability Tip_**: Use style overrides sparingly. If you find yourself constantly overriding the same properties (e.g., fontWeight and lineHeight) for a specific typography variant, consider proposing a new variant in theme.ts to keep the codebase clean.
+
+If you need to adjust typography settings (like `fontSize`) specifically for mobile devices, use MUI's responsive breakpoints:
+
+```tsx
+// illustration of usage. Remember to style components only in their '.styles.ts' files!
+<Typography variant="textMd" sx={{ fontSize: { xs: "14px", md: "16px" } }} />
 ```
 
 ---

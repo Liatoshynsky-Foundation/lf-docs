@@ -2,16 +2,17 @@
 
 A custom MUI theme for the admin panel. Built on top of `@mui/material`, it extends the palette, typography, breakpoints, and overrides component styles.
 
-The theme (components, typography, colors) is mostly based on [the design system](https://www.figma.com/design/IDQ5XmNo6PQBmBlL3DBm6Q/Admin-Liatoshynsky-Foundation?node-id=1-2&p=f&t=N84XpGtbj4BTkldT-0). Some unique settings (e.g `green` and `darkGray` colors) were taken from [the admin panel designs](https://www.figma.com/design/IDQ5XmNo6PQBmBlL3DBm6Q/Admin-Liatoshynsky-Foundation?node-id=77-8019&p=f&t=N84XpGtbj4BTkldT-0).
+The theme (components, typography, colors) is mostly based on [the Design System](https://www.figma.com/design/IDQ5XmNo6PQBmBlL3DBm6Q/Admin-Liatoshynsky-Foundation?node-id=1-2&p=f&t=N84XpGtbj4BTkldT-0). Some unique settings (e.g `green` and `darkGray` colors) were taken from [the admin panel designs](https://www.figma.com/design/IDQ5XmNo6PQBmBlL3DBm6Q/Admin-Liatoshynsky-Foundation?node-id=77-8019&p=f&t=N84XpGtbj4BTkldT-0).
 
 ## Documentation Sections
 
 | File                               | Contents                            |
 | ---------------------------------- | ----------------------------------- |
-| [Colors.md](./colors.md)           | Color palette and semantic tokens   |
-| [Typography.md](./typography.md)   | Typography variants and fonts       |
-| [Components.md](./components.md)   | Component overrides and variants    |
-| [Breakpoints.md](./breakpoints.md) | Custom breakpoints and their values |
+| [colors.md](./colors.md)           | Color palette and semantic tokens   |
+| [typography.md](./typography.md)   | Typography variants and fonts       |
+| [components.md](./components.md)   | Component overrides and variants    |
+| [breakpoints.md](./breakpoints.md) | Custom breakpoints and their values |
+| [extending.md](./extending.md)     | Custom theme extending guide        |
 
 ## File Structure
 

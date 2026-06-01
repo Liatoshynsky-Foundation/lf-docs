@@ -68,8 +68,10 @@ Supports semantic variants with detailed states (enabled, hovered, focused, pres
 
 The semantic token objects in `colors.ts` were mostly created to be used in `theme.ts` to style the base components. However, there are colors which are not used in `theme.ts`, but in specific component styles (like `newsChipBg` in `chipsColors`). So, if you need to use the relevant semantic token object from `colors.ts`, import it into your file. If you need a bare color from the `mainHexPalette`, you may use it as a string directly (e.g., `"blue.200"`), without additionally importing the `mainHexPalette`:
 
+> **_Note_**: The following files are provided as an illustrative example of the styling approach and do not enforce a strict naming convention for your components.
+
 ```ts
-// Сomponent.styles.ts
+// ExampleСomponent.styles.ts
 import { chipsColors } from "~/shared/theme/colors";
 
 export const styles = {
@@ -81,7 +83,7 @@ export const styles = {
 ```
 
 ```tsx
-// Сomponent.tsx
+// ExampleСomponent.tsx
 import { Box } from '@mui/material';
 import { styles } from './Component.styles'
 
@@ -92,10 +94,22 @@ import { styles } from './Component.styles'
 <Box sx={{ backgroundColor: '#B6D0F7', color: '#190d03' }} />
 ```
 
+### ⚠️ When should you use a semantic token and when a palette color?
+
+- **Semantic Tokens (e.g., `chipsColors.newsChipBg`)**
+  - **When to use:** For specific, context-driven component styles. While mostly used globally inside `theme.ts`, some are designed for specific isolated components.
+  - **How to use:** You must explicitly **import** the relevant token object from `colors.ts` into your file.
+
+- **Palette Colors (e.g., `"blue.200"`)**
+  - **When to use:** When you just need a bare, raw color from the `mainHexPalette` for a unique decorative element.
+  - **How to use:** Pass it directly as a **string** path (e.g., `color: "blue.200"`). You do **not** need to import `mainHexPalette` into your file.
+
+---
+
 In some cases, you might need to use CSS utility functions (like MUI's `alpha()`) to modify standard palette colors. In such cases, string paths won't work inside the function. You must import the mainHexPalette object directly:
 
 ```ts
-// Сomponent.styles.ts
+// ExampleСomponent.styles.ts
 import { alpha } from "@mui/material";
 import { mainHexPalette as colors } from "~/shared/theme/colors"; // Aliased 'as colors' for convenience
 

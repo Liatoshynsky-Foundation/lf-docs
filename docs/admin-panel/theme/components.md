@@ -14,6 +14,8 @@ All overrides — including available variants, colors, and sizes for each compo
 
 To avoid checking theme.ts every time, here is the exact list of variants and colors strictly styled by our theme. Avoid using props outside of this list, as they will fall back to unstyled default MUI looks.
 
+> The following components can be configured via listed properties
+
 ### Actions:
 
 #### 1. Button
@@ -66,6 +68,8 @@ To avoid checking theme.ts every time, here is the exact list of variants and co
 
 - variant: `default`, `discardChangesModal` (custom small modal with 32px rounded corners)
 
+> The following components cannot be configured. They are just for use as is.
+
 ### Navigation & Layout:
 
 #### 1. Tabs / Tab
@@ -99,6 +103,8 @@ To avoid checking theme.ts every time, here is the exact list of variants and co
 #### 4. Menu / MenuItem
 
 - No custom variants — styles are applied globally
+
+> **_Note_**: Don't see the variant or color you need? Check if it's in [the Design System](https://www.figma.com/design/IDQ5XmNo6PQBmBlL3DBm6Q/Admin-Liatoshynsky-Foundation?node-id=1-2&p=f&t=N84XpGtbj4BTkldT-0). If it is, please open a ticket to update the `theme.ts` or `colors.ts` instead of using global `sx` overrides. Check the [ theme extending guide](./breakpoints.md) first.
 
 ---
 
