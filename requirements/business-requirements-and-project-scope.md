@@ -3,14 +3,16 @@
 ## Business Requirements and Project Scope Document
 
 **By:** Oleksii Onatskyi  
-**Version:** 2.0
+**Version:** 3.0
 
 ## Revision History
 
 | Date | Version | Description | Author |
 | --- | --- | --- | --- |
-| 20/06/2025 | 1.0 | Added the Project context section | Oleksii Onatskyi |
+| 07/09/2026 | 3.0 | Added MVP description. | Oleksii Onatskyi |
 | 02/09/2026 | 2.0 | Added the Business requirements section. Reviewed the existing content. | Oleksii Onatskyi |
+| 20/06/2025 | 1.0 | Added the Project context section. | Oleksii Onatskyi |
+|  |  |  |  |
 
 # 1 Project Context
 
@@ -156,7 +158,36 @@ Additionally, an admin panel will be developed to allow the foundation team to i
 - Website administration by SoftServe team.
 - Global search across website pages (visitors navigate website content through the site navigation.)
 
-# 5 Assumptions
+# 5 MVP
+
+This section lists the website pages and admin panel management capabilities to be included in the first release.
+
+| Page                          | Available on the website | Page management via the admin panel                                                                                                                                          |
+| ----------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Головна                       | Yes                      | Not included in the MVP                                                                                                                                                      |
+| Життєпис                      | Yes                      | Not included in the MVP                                                                                                                                                      |
+| Творчість                     | Yes                      | Yes. Administrators can create composition groups, add and edit group descriptions, create compositions, and add sheet music materials and audio recordings to compositions. |
+| Дослідження та наукові роботи | No                       | Not included in the MVP                                                                                                                                                      |
+| Про нас (Про фундацію)        | Yes                      | Not included in the MVP                                                                                                                                                      |
+| Новини, події та медіа        | Yes                      | Yes. Administrators can create and edit News, Event, and Media publications, edit text, and add images and links.                                                            |
+| Контакти                      | Yes                      | Not included in the MVP                                                                                                                                                      |
+| Архів                         | Yes                      | Yes. Administrators can create and edit fonds and add files to fonds.                                                                                                        |
+| Співпраця                     | Yes                      | Not included in the MVP                                                                                                                                                      |
+| Війна в Україні               | Yes                      | Not included in the MVP                                                                                                                                                      |
+| Підтримати фундацію           | Yes                      | Not included in the MVP                                                                                                                                                      |
+| Політика конфіденційності     | Yes                      | Not included in the MVP                                                                                                                                                      |
+| Умови користування сайтом     | Yes                      | Not included in the MVP                                                                                                                                                      |
+
+Before the release, the Foundation team should:
+- Remove all temporary, test, and placeholder content.
+Review all texts, images, links, names, dates, and contact details.
+- Finalize and approve the structure and wording of each page.
+- Prepare and approve both Ukrainian and English content where applicable.
+- Ensure that no pages contain content intended to be replaced immediately after launch.
+- Finalize the content of conditionally static pages before the content freeze.
+- Treat the first-release content as a production-ready baseline that does not require urgent updates immediately after launch.
+
+# 6 Assumptions
 
 The Foundation team will provide prepared and reviewed content for all website pages.
 
@@ -166,7 +197,7 @@ A simplified implementation approach is acceptable for the MVP.
 
 The SoftServe team is expected to have sufficient resources to deliver the MVP at an appropriate level of quality within a reasonable timeframe, taking into account the actual effort required to complete the work.
 
-# 6 Dependencies
+# 7 Dependencies
 
 The project depends on:
 
@@ -174,7 +205,7 @@ The project depends on:
 - timely delivery of the required content by the Foundation team;
 - timely payment and continued availability of third-party services managed by the Foundation, including hosting, the domain name, and the WayForPay payment account.
 
-# 7 Constraints
+# 8 Constraints
 
 The project is subject to the following constraints:
 
@@ -186,11 +217,11 @@ The project is subject to the following constraints:
 - Potential website administrators from the Foundation team have limited technical knowledge. This must be considered when designing the admin panel and preparing documentation for the services and administrative functionality.
 - Legal restrictions may apply to the publication and use of certain content on the website.
 
-# 8 Timeline and Delivery Commitments
+# 9 Timeline and Delivery Commitments
 
 As this is a pro-bono project, no fixed delivery deadline has been established, and the SoftServe team does not make a strict commitment to a specific delivery date.
 
-# 9 Risks
+# 10 Risks
 
 The following project risks have been identified:
 
