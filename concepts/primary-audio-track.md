@@ -182,3 +182,17 @@ If the administrator has not assigned a custom main composition, the system uses
 ### EC-04. Attempt to Delete the Main Composition
 
 If the administrator attempts to delete the current main file, the operation is blocked.
+
+## 9. Definition of Done
+
+The feature is considered implemented if:
+
+* the administrator sees the **«Зробити головною композицією»** action for MP3 files;
+* the administrator can assign the main composition;
+* the administrator can change it without developer involvement;
+* only one composition can be the main composition at a time;
+* the current main composition has a clear visual indicator;
+* the main composition cannot be deleted before another one is selected;
+* the public audio player uses the current main composition;
+* if no composition is selected, **«Поема про ліс»** is used;
+* the new feature does not break the operation of the existing audio player and media library.
