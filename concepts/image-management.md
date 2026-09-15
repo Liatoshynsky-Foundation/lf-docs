@@ -20,6 +20,8 @@ Changing the display area for one language version does not affect the other lan
 
 When an existing image is opened for display area resizing, the previously saved display area for the current page, language, and placeholder is used when available. Otherwise, the default display area for the placeholder is displayed.
 
+If an Image Asset is replaced or modified in the media library, its existing usages remain unchanged. The changes are applied to a specific usage only when the Image Asset is explicitly replaced or modified in that place of usage.
+
 ## Image actions
 
 Each image block provides two main actions:
