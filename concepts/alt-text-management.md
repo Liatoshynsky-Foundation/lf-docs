@@ -2,7 +2,7 @@
 
 ## Decision
 
-Alt text is specified for each individual use of an image rather than for the Image Asset itself in the media library.
+Alt text is defined **at the point of image usage**, not when the Image Asset is uploaded to the media library.
 
 ## Rationale
 
