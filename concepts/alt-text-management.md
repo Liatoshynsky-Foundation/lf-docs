@@ -2,7 +2,7 @@
 
 ## Decision
 
-Alt text is defined **at the point of image usage**, not when the Image Asset is uploaded to the media library.
+Define alt text when placing an image in a specific context, rather than when uploading the Image Asset to the media library.
 
 ## Rationale
 
