@@ -2,7 +2,7 @@
 
 ## Decision
 
-Define alt text when placing an image in a specific context, rather than when uploading the Image Asset to the media library.
+Alt text is specified for each individual use of an image rather than for the Image Asset itself in the media library.
 
 ## Rationale
 
