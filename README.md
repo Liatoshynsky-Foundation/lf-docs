@@ -15,6 +15,6 @@ Explore the available documentation below:
 
 Follow the contribution and source control workflow described in [CONTRIBUTING.md](CONTRIBUTING.md), which covers repository structure, file naming, branching, pull requests, reviews, and other documentation guidelines.
 
-If you are unfamiliar with Git, GitHub, or Git Bash, refer to the [Git documentation contribution cheat sheet](git-contribution-cheat-sheet.md). It provides a beginner-friendly, step-by-step guide to creating a branch, making and reviewing changes, committing and pushing updates, creating a pull request, and synchronizing your local repository after the changes are merged.
+If you are new to Git, GitHub, or Git Bash, see the [Git documentation contribution cheat sheet](git-contribution-cheat-sheet.md). It provides a beginner-friendly, step-by-step workflow with the Git commands needed to create a branch, make and review changes, commit and push them, create a pull request, and synchronize your local repository after the changes are merged.
 
 ---
