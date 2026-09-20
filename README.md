@@ -13,8 +13,8 @@ Explore the available documentation below:
 
 ## How to Contribute
 
-Documentation changes should follow the contribution and source control process established for this repository.
+Follow the contribution and source control workflow described in [CONTRIBUTING.md](CONTRIBUTING.md), which covers repository structure, file naming, branching, pull requests, reviews, and other documentation guidelines.
 
-For detailed contribution rules, including repository structure, file naming, branching, pull requests, reviews, and other documentation policies, see [CONTRIBUTING.md](CONTRIBUTING.md).
+If you are unfamiliar with Git, GitHub, or Git Bash, refer to the [Git documentation contribution cheat sheet](git-contribution-cheat-sheet.md). It provides a beginner-friendly, step-by-step guide to creating a branch, making and reviewing changes, committing and pushing updates, creating a pull request, and synchronizing your local repository after the changes are merged.
 
 ---
