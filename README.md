@@ -13,10 +13,8 @@ Explore the available documentation below:
 
 ## How to Contribute
 
-If you are adding new documentation, please keep the repository organized by following these steps:
+Documentation changes should follow the contribution and source control process established for this repository.
 
-1. **Follow the Structure:** Place your files in a logical folder path under `/docs/` (e.g., `/docs/main-website/components/`).
-2. **Create an Entry Point:** Always add a `README.md` inside your new folder to act as the main landing page for that specific topic.
-3. **Update the Index:** Add a link to your new section in the **Documentation Directory** above.
+For detailed contribution rules, including repository structure, file naming, branching, pull requests, reviews, and other documentation policies, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
