@@ -13,10 +13,8 @@ Explore the available documentation below:
 
 ## How to Contribute
 
-If you are adding new documentation, please keep the repository organized by following these steps:
+Follow the contribution and source control workflow described in [CONTRIBUTING.md](CONTRIBUTING.md), which covers repository structure, file naming, branching, pull requests, reviews, and other documentation guidelines.
 
-1. **Follow the Structure:** Place your files in a logical folder path under `/docs/` (e.g., `/docs/main-website/components/`).
-2. **Create an Entry Point:** Always add a `README.md` inside your new folder to act as the main landing page for that specific topic.
-3. **Update the Index:** Add a link to your new section in the **Documentation Directory** above.
+If you are new to Git, GitHub, or Git Bash, see the [Git documentation contribution cheat sheet](git-contribution-cheat-sheet.md). It provides a beginner-friendly, step-by-step workflow with the Git commands needed to create a branch, make and review changes, commit and push them, create a pull request, and synchronize your local repository after the changes are merged.
 
 ---
