@@ -17,4 +17,6 @@ Follow the contribution and source control workflow described in [CONTRIBUTING.m
 
 If you are new to Git, GitHub, or Git Bash, see the [Git documentation contribution cheat sheet](git-contribution-cheat-sheet.md). It provides a beginner-friendly, step-by-step workflow with the Git commands needed to create a branch, make and review changes, commit and push them, create a pull request, and synchronize your local repository after the changes are merged.
 
----
+## Playing with Git
+
+Bacon ipsum dolor amet chuck salami buffalo brisket kevin rump beef ribs ball tip pancetta. Shankle buffalo jowl, strip steak polony ground round chislic capicola. Short ribs tri-tip pastrami kielbasa. Beef polony chislic tenderloin alcatra. Boudin ribeye brisket ham shank. Bacon tri-tip brisket alcatra venison, pancetta corned beef salami chislic kevin chicken polony boudin pork chop hamburger.
