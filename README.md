@@ -19,4 +19,6 @@ For detailed contribution rules, including repository structure, file naming, br
 
 If you are new to Git, GitHub, or Git Bash, see the [Git documentation contribution cheat sheet](git-contribution-cheat-sheet.md). It provides a beginner-friendly, step-by-step workflow with the Git commands needed to create a branch, make and review changes, commit and push them, create a pull request, and synchronize your local repository after the changes are merged.
 
----
+## Playing with Git
+
+Caramel syrup brownie bits peanut butter cups chocolate chip cookie dough chocolate. Peanut butter cups pistachio salted caramel syrup rocky road, Caramel syrup mint chocolate chips french vanilla neopolitan cherry oreos salted caramel syrup chocolate syrup. Strawberry cherry peanuts peanuts strawberries bananas chocolate chip, coffee blueberries brownie bits chocolate sprinkles vanilla salted caramel syrup pistachio. Kitkat strawberry kitkat, brownie bits marshmallows salted caramel syrup mint vanilla neopolitan vanilla rainbow sprinkles salted caramel syrup.
